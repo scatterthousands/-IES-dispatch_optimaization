@@ -1,0 +1,18 @@
+\ Model IES_Robust_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ Elec_Bal_0: P_chp[0] + P_buy[0] - P_curtail[0] = 300
+ CHP_Coup_0: - 1.2 P_chp[0] + Q_chp[0] = 0
+ Source_Heat_0: Q_chp[0] + Q_gb[0] - 121.368225 T_s_source[0]
+   + 121.368225 T_r_source[0] = 0
+ R6: T_r_source[0] = 40
+Bounds
+ P_chp[0] free
+ Q_chp[0] free
+ -infinity <= Q_gb[0] <= 1000
+ -infinity <= P_curtail[0] <= 0
+ T_s_source[0] >= 60
+ T_r_source[0] free
+End
