@@ -1,0 +1,36 @@
+
+#优化信息#
+
+热负荷峰值: 3200.0 kW
+设计流量: 21.02 kg/s
+管内流速: 0.67 m/s (合理范围 0.5-2.0)
+物理传输延时: 4.15 小时
+--- 差分网格 ---
+空间分段 N: 4
+库朗数 Co: 0.9636
+Restricted license - for non-production use only - expires 2027-11-29
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) i5-14600K, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 314 rows, 384 columns and 906 nonzeros (Min)
+Model fingerprint: 0x05b5aa62
+Model has 120 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [3e-02, 9e+01]
+  Objective range  [4e-02, 1e+04]
+  Bounds range     [1e+01, 4e+03]
+  RHS range        [5e-02, 3e+03]
+Presolve removed 211 rows and 193 columns
+Presolve time: 0.00s
+Presolved: 103 rows, 191 columns, 698 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.113131e+03   0.000000e+00      0s
+
+Extra simplex iterations after uncrush: 38
+     118    1.7859866e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 118 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  1.785986629e+03

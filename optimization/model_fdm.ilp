@@ -1,0 +1,23 @@
+\ Model IES_FDM_Physics_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ R0: P_chp[0] + P_buy[0] - P_curtail[0] = 39.75663059046343
+ R1: - 1.2 P_chp[0] + Q_chp[0] = 0
+ R2: Q_chp[0] + Q_gb[0] - 101.7181314285714 Ts_source[0]
+   + 101.7181314285714 Tr_source[0] = 0
+ R3: Ts_mesh[0,0] - Ts_source[0] = 0
+ R4: Tr_mesh[0,0] - Tr_source[0] = 0
+ R9: Ts_mesh[0,0] = 90
+ R10: Tr_mesh[0,0] = 36
+Bounds
+ P_chp[0] free
+ Q_chp[0] free
+ -infinity <= Q_gb[0] <= 3236.486
+ -infinity <= P_curtail[0] <= 441.4213562373095
+ Ts_mesh[0,0] free
+ Tr_mesh[0,0] free
+ Ts_source[0] free
+ Tr_source[0] free
+End
