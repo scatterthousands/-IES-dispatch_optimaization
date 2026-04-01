@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b26abc8e-a89e-4261-b600-a81f4f7a2693" name="更改" comment="" />
+    <list default="true" id="b26abc8e-a89e-4261-b600-a81f4f7a2693" name="更改" comment="新增3源9节点拓扑结构">
+      <change beforePath="$PROJECT_DIR$/../PythonProject" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonProject" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;scatterthousands&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/scatterthousands/-IES-dispatch_optimaization.git&quot;,
+    &quot;accountId&quot;: &quot;ea868b09-4dc7-4cec-b4a1-d18084709917&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -32,13 +46,25 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.3-bus-9-node.executor": "Run",
+    "Python.30-bus.executor": "Run",
+    "Python.complex_network.executor": "Run",
+    "Python.complex_network_data.executor": "Run",
+    "Python.config.executor": "Run",
+    "Python.config14node.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.main14node.executor": "Run",
+    "Python.main33node.executor": "Run",
+    "Python.simple_network.executor": "Run",
     "Python.single_network.executor": "Run",
     "Python.single_network_modified.executor": "Run",
     "Python.test.executor": "Debug",
+    "Python.tuopo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/code/optimization/3bus9node",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -48,10 +74,18 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\optimization\3bus9node" />
+      <recent name="D:\code\optimization\results" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\optimization\test" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.27397.106" />
         <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
       </set>
     </attachedChunks>
@@ -67,12 +101,31 @@
       <workItem from="1766489378885" duration="4468000" />
       <workItem from="1766558317293" duration="2287000" />
       <workItem from="1766560942237" duration="531000" />
-      <workItem from="1766561493267" duration="13266000" />
+      <workItem from="1766561493267" duration="13955000" />
+      <workItem from="1768296458268" duration="3908000" />
+      <workItem from="1768897406405" duration="12373000" />
+      <workItem from="1773641636042" duration="6335000" />
+      <workItem from="1773651398273" duration="4200000" />
+      <workItem from="1774423169049" duration="6262000" />
+      <workItem from="1774505266717" duration="3033000" />
     </task>
+    <task id="LOCAL-00001" summary="新增3源9节点拓扑结构">
+      <option name="closed" value="true" />
+      <created>1774426957600</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1774426957600</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增3源9节点拓扑结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增3源9节点拓扑结构" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -86,8 +139,16 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/optimization$config.coverage" NAME="config 覆盖结果" MODIFIED="1773651853300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3bus9node" />
+    <SUITE FILE_PATH="coverage/optimization$main.coverage" NAME="main 覆盖结果" MODIFIED="1774427245950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3bus9node" />
+    <SUITE FILE_PATH="coverage/optimization$simple_network.coverage" NAME="simple_network 覆盖结果" MODIFIED="1768379221114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/optimization$complex_network.coverage" NAME="complex_network 覆盖结果" MODIFIED="1768980673621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/optimization$complex_network_data.coverage" NAME="complex_network_data 覆盖结果" MODIFIED="1768980670590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/optimization$single_network.coverage" NAME="single_network 覆盖结果" MODIFIED="1766562117440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/optimization$single_network_modified.coverage" NAME="single_network_modified 覆盖结果" MODIFIED="1766579169493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/optimization$3_bus_9_node.coverage" NAME="3-bus-9-node 覆盖结果" MODIFIED="1773646448500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/optimization$30_bus.coverage" NAME="30-bus 覆盖结果" MODIFIED="1773644990518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/results" />
     <SUITE FILE_PATH="coverage/optimization$test.coverage" NAME="test 覆盖结果" MODIFIED="1766491743931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/optimization$tuopo.coverage" NAME="tuopo 覆盖结果" MODIFIED="1773645421888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
 </project>
